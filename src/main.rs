@@ -1,5 +1,4 @@
-use core::num;
-use std::{io, u32};
+use std::io;
 
 fn get_number() -> u64 {
     let mut input: String = String::new();
@@ -28,7 +27,7 @@ fn sum_digits(num: i64) -> i64 {
 }
 
 fn find_harshad(nth: u64) -> i64{
-    let mut harshad: i64;
+    let harshad: i64;
     let mut count: i64  = 1;
     let mut nth_count: u64 = 0;
     loop{
